@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "br.com.jafizapp",
+        "sha256_cert_fingerprints": ["34:F0:54:0A:46:E7:D9:AF:AA:92:43:3F:87:3E:26:8E:42:CB:09:42:5B:89:63:4B:06:3E:F3:AB:97:E3:8F:F4"]
+      }
+    }]
