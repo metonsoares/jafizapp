@@ -1,0 +1,11 @@
+# Já Fiz — checklists operacionais
+# A área logada não entra em buscador: o que está atrás do login é dado dos
+# clientes dos nossos clientes, e o crawler não passa do login mesmo.
+User-agent: *
+Allow: /$
+Allow: /termos
+Allow: /privacidade
+Disallow: /?r=
+Disallow: /?pagamento=
+
+Sitemap: https://www.jafizapp.com.br/sitemap.xml
