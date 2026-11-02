@@ -3,6 +3,6 @@
       "target": {
         "namespace": "android_app",
         "package_name": "br.com.jafizapp",
-        "sha256_cert_fingerprints": ["34:F0:54:0A:46:E7:D9:AF:AA:92:43:3F:87:3E:26:8E:42:CB:09:42:5B:89:63:4B:06:3E:F3:AB:97:E3:8F:F4"]
+        "sha256_cert_fingerprints": ["70:08:4D:48:0D:62:A4:3C:7C:97:95:BD:4C:09:69:E4:96:C2:FB:C9:B9:CF:33:F5:3E:F0:D6:63:18:6C:B0:CA"]
       }
     }]
