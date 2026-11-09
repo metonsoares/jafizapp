@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["898JXLFPH3.br.com.jafizapp"],
+        "components": [
+          { "/": "/*", "comment": "todo o site abre no app quando ele esta instalado" }
+        ]
+      }
+    ]
+  }
+}
