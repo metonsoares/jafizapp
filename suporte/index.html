@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Suporte do Já Fiz</title>
+<meta name="description" content="Fale com o suporte do Já Fiz e veja as respostas das dúvidas mais comuns de quem usa o app no dia a dia." />
+<link rel="canonical" href="https://www.jafizapp.com.br/suporte" />
+<meta name="theme-color" content="#12b57a" />
+<link rel="icon" href="/icone.svg" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Já Fiz" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:url" content="https://www.jafizapp.com.br/suporte" />
+<meta property="og:title" content="Suporte do Já Fiz" />
+<meta property="og:description" content="Fale com o suporte do Já Fiz e veja as respostas das dúvidas mais comuns de quem usa o app no dia a dia." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap" />
+<style>
+  :root {
+    --navy: #14243d;
+    --ink: #1a2233;
+    --green: #12b57a;
+    --green-600: #0ea371;
+    --green-700: #0b8a63;
+    --mint: #e7f8f1;
+    --cloud: #f5f7fb;
+    --surface: #ffffff;
+    --line: #e6eaf2;
+    --muted: #6b7688;
+    --shadow: 0 1px 2px rgba(20,36,61,.04), 0 8px 24px rgba(20,36,61,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --navy: #eef2f8;
+      --ink: #dfe6f0;
+      --green: #2fd39a;
+      --green-600: #3fdda6;
+      --green-700: #8af0cb;
+      --mint: #15312a;
+      --cloud: #0d1420;
+      --surface: #141c2a;
+      --line: #253042;
+      --muted: #9aa6b8;
+      --shadow: 0 1px 2px rgba(0,0,0,.25), 0 8px 24px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --navy: #eef2f8;
+    --ink: #dfe6f0;
+    --green: #2fd39a;
+    --green-600: #3fdda6;
+    --green-700: #8af0cb;
+    --mint: #15312a;
+    --cloud: #0d1420;
+    --surface: #141c2a;
+    --line: #253042;
+    --muted: #9aa6b8;
+    --shadow: 0 1px 2px rgba(0,0,0,.25), 0 8px 24px rgba(0,0,0,.35);
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--cloud);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+  }
+  .casca { width: 100%; max-width: 46rem; margin: 0 auto; padding: 0 16px; }
+
+  header.topo {
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+  }
+  .topo-linha {
+    display: flex; align-items: center; gap: 10px;
+    min-height: 64px;
+  }
+  .marca { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--navy); }
+  .marca img { width: 28px; height: 28px; border-radius: 8px; display: block; }
+  .marca span { font-family: "Bricolage Grotesque", system-ui, sans-serif; font-weight: 700; font-size: 1.05rem; letter-spacing: -.01em; }
+
+  main { padding: 40px 0 56px; }
+  h1 {
+    font-family: "Bricolage Grotesque", system-ui, sans-serif;
+    font-weight: 700; font-size: clamp(1.75rem, 5vw, 2.4rem);
+    line-height: 1.15; letter-spacing: -.02em;
+    color: var(--navy); margin: 0 0 12px; text-wrap: balance;
+  }
+  .entrada { color: var(--muted); font-size: 1.05rem; margin: 0 0 28px; max-width: 38rem; }
+
+  h2 {
+    font-family: "Bricolage Grotesque", system-ui, sans-serif;
+    font-weight: 700; font-size: 1.25rem; letter-spacing: -.01em;
+    color: var(--navy); margin: 40px 0 14px;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 1.1rem;
+    box-shadow: var(--shadow);
+    padding: 22px;
+  }
+  .canal { display: grid; gap: 16px; }
+  .canal p { margin: 0; }
+  .rotulo {
+    display: block; font-size: .78rem; font-weight: 700; letter-spacing: .07em;
+    text-transform: uppercase; color: var(--muted); margin-bottom: 4px;
+  }
+  .email {
+    font-size: 1.15rem; font-weight: 700; color: var(--green-700);
+    text-decoration: none; word-break: break-word;
+    display: inline-flex; align-items: center; min-height: 44px;
+  }
+  .email:hover { text-decoration: underline; }
+
+  .ajuda-rapida { margin: 14px 0 0; padding-left: 20px; color: var(--muted); }
+  .ajuda-rapida li { margin: 4px 0; }
+
+  details {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 1.1rem;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  summary {
+    cursor: pointer; list-style: none;
+    padding: 16px 18px; min-height: 44px;
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    font-weight: 600; color: var(--navy);
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after {
+    content: "+"; font-size: 1.3rem; line-height: 1; color: var(--green-600);
+    flex: none; transition: transform .15s ease;
+  }
+  details[open] summary::after { content: "−"; }
+  summary:focus-visible { outline: 3px solid var(--green); outline-offset: -3px; }
+  details .resposta { padding: 0 18px 18px; color: var(--muted); }
+  details .resposta p { margin: 0 0 10px; }
+  details .resposta p:last-child { margin-bottom: 0; }
+
+  footer {
+    border-top: 1px solid var(--line);
+    background: var(--surface);
+    padding: 28px 0;
+    color: var(--muted); font-size: .9rem;
+  }
+  .rodape-linha { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 24px; }
+  footer a { color: var(--muted); text-decoration: none; display: inline-flex; align-items: center; min-height: 32px; }
+  footer a:hover { color: var(--green-700); }
+  .rodape-links { margin-left: auto; display: flex; flex-wrap: wrap; gap: 10px 20px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topo">
+  <div class="casca topo-linha">
+    <a class="marca" href="/">
+      <img src="/icone.svg" alt="" />
+      <span>Já Fiz</span>
+    </a>
+  </div>
+</header>
+
+<main class="casca">
+  <h1>Suporte</h1>
+  <p class="entrada">
+    Travou alguma coisa, ficou uma dúvida ou você precisa de um ajuste na sua conta?
+    Escreva para a gente — respondemos em até um dia útil.
+  </p>
+
+  <div class="card canal">
+    <p>
+      <span class="rotulo">E-mail</span>
+      <a class="email" href="mailto:contato@jafizapp.com.br">contato@jafizapp.com.br</a>
+    </p>
+    <p>
+      <span class="rotulo">Atendimento</span>
+      Segunda a sexta, das 9h às 18h (horário de Brasília).
+    </p>
+    <p style="margin-top:4px">
+      Para a gente resolver na primeira resposta, conte no e-mail:
+    </p>
+    <ul class="ajuda-rapida">
+      <li>o e-mail que você usa para entrar no Já Fiz;</li>
+      <li>o nome do local ou do checklist envolvido;</li>
+      <li>o que você esperava que acontecesse e o que aconteceu;</li>
+      <li>se puder, uma foto da tela.</li>
+    </ul>
+  </div>
+
+  <h2>Dúvidas frequentes</h2>
+
+  <details>
+    <summary>Não apareceu nenhuma tarefa hoje</summary>
+    <div class="resposta">
+      <p>Isso quase sempre significa que o checklist ainda não foi ligado para o seu local
+      ou para o seu turno, ou que o dia dele não é hoje.</p>
+      <p>Fale com o gestor da operação: é ele quem define quais checklists rodam em cada
+      local, em que dias e a que horas.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>A foto da evidência não envia</summary>
+    <div class="resposta">
+      <p>Na primeira vez, o aparelho pergunta se o Já Fiz pode usar a câmera e as fotos.
+      Se a permissão foi negada, libere em Ajustes do aparelho, no item do Já Fiz.</p>
+      <p>Se a internet estiver instável, o app guarda o que você marcou e envia sozinho
+      quando a conexão voltar — você não precisa refazer a tarefa.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Esqueci minha senha</summary>
+    <div class="resposta">
+      <p>Na tela de entrada, toque em “Esqueci minha senha” e informe o seu e-mail.
+      Você recebe um link para criar uma nova.</p>
+      <p>Se o e-mail não chegar em alguns minutos, confira a caixa de spam e confirme
+      com o gestor qual endereço está cadastrado para você.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Como adiciono alguém da equipe</summary>
+    <div class="resposta">
+      <p>Em Configuração, na área de usuários e permissões, o gestor cadastra a pessoa,
+      escolhe se ela é gestor ou operador e define a quais locais ela tem acesso.</p>
+      <p>Cada pessoa vê apenas as tarefas da função e dos locais dela.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Um item saiu fora do padrão. E agora?</summary>
+    <div class="resposta">
+      <p>O próprio app abre uma não conformidade na hora, com o item, o local e a
+      evidência registrada.</p>
+      <p>A partir dela o gestor monta o plano de ação, com responsável e prazo,
+      e acompanha até fechar.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Quero excluir minha conta</summary>
+    <div class="resposta">
+      <p>É um pedido seu e só seu: a exclusão apaga os seus dados pessoais da plataforma
+      e não pode ser desfeita.</p>
+      <p>Faça o pedido na página <a href="/excluir-conta" style="color:var(--green-700)">excluir conta</a>.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>O app funciona sem internet?</summary>
+    <div class="resposta">
+      <p>Funciona. Você continua marcando os itens normalmente; o Já Fiz guarda tudo no
+      aparelho e envia assim que o sinal voltar.</p>
+      <p>Enquanto houver coisa na fila, o app avisa na própria tela.</p>
+    </div>
+  </details>
+
+</main>
+
+<footer>
+  <div class="casca rodape-linha">
+    <span>Já Fiz — checklists que provam o trabalho feito.</span>
+    <nav class="rodape-links">
+      <a href="/">Início</a>
+      <a href="/termos">Termos de uso</a>
+      <a href="/privacidade">Privacidade</a>
+      <a href="/excluir-conta">Excluir conta</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
