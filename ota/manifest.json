@@ -1,8 +1,8 @@
 {
-  "commit": "65e5ffbd06ab133d6bea74113c1ca13b8545735d",
-  "epoch": 1795438357,
-  "url": "https://www.jafizapp.com.br/ota/web-65e5ffbd06ab.zip",
-  "sha256": "662013121f2cbde8ec6f37eb6269631b3156cec2ca560288bfcb4bdd2526d4d3",
-  "tamanho": 352705,
+  "commit": "73ccd94e190047a7fe93eb182dbc5e904500bde2",
+  "epoch": 1795630277,
+  "url": "https://www.jafizapp.com.br/ota/web-73ccd94e1900.zip",
+  "sha256": "8fb7895da632ba7844579a7a8f3807be6aa2aa7498bad62932d34b012d51e7d0",
+  "tamanho": 354612,
   "min_build_ios": 19
 }
